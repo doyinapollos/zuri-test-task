@@ -2,8 +2,24 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+    <div className="">
+      <div className="">
+        <img src="" alt="" />
+      </div>
+
+      <div className="">Twiter link</div>
+
+      <div className="">Zuri team</div>
+
+      <div className="">Python books</div>
+
+      <div className="">Background check for coders</div>
+
+      <div className=""></div>
+
+      <h1 className="text-2xl font-bold underline text-blue-600">
+        Hello world!
+      </h1>
     </div>
   );
 }
