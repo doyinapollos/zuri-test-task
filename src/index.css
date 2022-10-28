@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.app {
+    @apply flex flex-col justify-items-center items-center w-full h-auto bg-white;
+}
+
+.main {
+    @apply flex flex-col justify-items-center items-center mt-10 bg-white w-4/5 h-4/5;
+}
+
+.links-content {
+    @apply flex flex-row justify-center items-center w-full h-20 bg-gray-200 my-6 mx-8;
+}
+
+.footer {
+    @apply flex flex-col justify-center items-center w-full h-40 bg-white;
+}
+
+.footer-sub-div {
+    @apply flex flex-row justify-around items-center w-full h-40 bg-white;
+}
