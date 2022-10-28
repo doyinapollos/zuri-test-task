@@ -1,13 +1,16 @@
 import "./App.css";
+import img1 from "./photo/image-1.jpg";
 
 function App() {
   return (
     <div className="">
-      <div className="">
-        <img src="" alt="" />
+      <div id="profile__img" className="">
+        <img className="w-24 h-24" src={img1} alt="" />
       </div>
 
-      <div className="">Twiter link</div>
+      <div id="twitter" className="">
+        @ebiapollos
+      </div>
 
       <div className="">Zuri team</div>
 
@@ -33,10 +36,6 @@ function App() {
           </div>
         </div>
       </footer>
-
-      <h1 className="text-2xl font-bold underline text-blue-600">
-        Hello world!
-      </h1>
     </div>
   );
 }
