@@ -24,3 +24,7 @@
 .footer-sub-div {
     @apply flex flex-row justify-around items-center w-full h-40 bg-white;
 }
+
+a {
+    @apply rounded-md bg-sky-400 cursor-pointer;
+}

@@ -52,7 +52,6 @@ function App() {
             {" "}
             Background check for coder{" "}
           </a>{" "}
-          s
         </div>
 
         <div id="book__design" className="links-content">
@@ -70,7 +69,7 @@ function App() {
 
       <footer className="footer">
         <div className="footer-sub-div">
-          <span>Zuri.Internship</span>
+          <span className="font-bold">Zuri.Internship</span>
 
           <span>HGN Internship 9 Frontend Task</span>
 
