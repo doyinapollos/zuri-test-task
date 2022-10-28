@@ -9,6 +9,10 @@
     @apply flex flex-col justify-items-center items-center mt-10 bg-white w-4/5 h-4/5;
 }
 
+.name {
+    @apply flex flex-row justify-center items-center w-full h-4 my-6 mx-8;
+}
+
 .links-content {
     @apply flex flex-row justify-center items-center w-full h-20 bg-gray-200 my-6 mx-8;
 }
