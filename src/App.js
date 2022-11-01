@@ -5,66 +5,69 @@ function App() {
   return (
     <div className="app">
       <div className="main">
-        <div id="profile__img" className="">
-          <img className="w-24 h-24 rounded-full" src={img1} alt="" />
-        </div>
+        <img
+          id="profile__img"
+          className="w-24 h-24 rounded-full"
+          src={img1}
+          alt=""
+        />
         <div className="name">Ebi-erefa Apollos</div>
-
         <div id="twitter" className="links-content">
           @ebiapollos
         </div>
-
         <div id="slack" className="hidden">
           @ebiapollos
         </div>
-
-        <div id="btn__zuri" className="links-content">
-          <a
-            href="https://training.zuri.team/"
-            rel="noreferrer"
-            target="_blank"
-          >
-            {" "}
-            Zuri team{" "}
-          </a>
-        </div>
-
-        <div id="books" className="links-content">
-          <a href="http://books.zuri.team/" rel="noreferrer" target="_blank">
-            {" "}
-            Zuri Books{" "}
-          </a>
-        </div>
-
-        <div id="book__python" className="links-content">
-          <a href="https://books.zuri.team/" rel="noreferrer" target="_blank">
-            {" "}
-            Python books{" "}
-          </a>{" "}
-        </div>
-
-        <div id="pitch" className="links-content">
-          <a
-            href="https://background.zuri.team/"
-            rel="noreferrer"
-            target="_blank"
-          >
-            {" "}
-            Background check for coder{" "}
-          </a>{" "}
-        </div>
-
-        <div id="book__design" className="links-content">
+        <a
+          id="btn__zuri"
+          className="links-content"
+          href="https://training.zuri.team/"
+          rel="noreferrer"
+          target="_blank"
+        >
           {" "}
-          <a
-            href="https://books.zuri.team/design-rules/"
-            rel="noreferrer"
-            target="_blank"
-          >
-            {" "}
-            Design books{" "}
-          </a>{" "}
-        </div>
+          Zuri team{" "}
+        </a>
+        <a
+          id="books"
+          className="links-content"
+          href="http://books.zuri.team/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          {" "}
+          Zuri Books{" "}
+        </a>
+        <a
+          id="book__python"
+          className="links-content"
+          href="https://books.zuri.team/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          {" "}
+          Python books{" "}
+        </a>
+        <a
+          id="pitch"
+          className="links-content"
+          href="https://background.zuri.team/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          {" "}
+          Background check for coder{" "}
+        </a>{" "}
+        <a
+          id="book__design"
+          className="links-content"
+          href="https://books.zuri.team/design-rules/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          {" "}
+          Design books{" "}
+        </a>
       </div>
 
       <footer className="footer">
